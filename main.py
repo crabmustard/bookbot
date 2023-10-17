@@ -2,7 +2,6 @@ current_book = 'books/frankenstein.txt'
 with open(current_book) as f:
     file_contents = f.read()
 fwords = file_contents.split()
-sds = 0
 letter_count = {}
 letter_list = []
 for f_word in fwords:
