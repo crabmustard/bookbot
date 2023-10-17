@@ -19,8 +19,8 @@ for f_word in fwords:
 letter_list = sorted(letter_count.items(), key = lambda x:x[1], reverse = True)
 
 
-print(f'--- Begin report of {current_book}')
-print(f'{len(fwords)} words found in the document')
+print(f'\n--- Begin report of {current_book} ---\n')
+print(f'--- {len(fwords)} words found in the document ---\n')
 for pair in letter_list:
     print(f'The {pair[0]} character was found {pair[1]} times')
-print('--- End report ---')
+print('\n--- End report ---\n')
